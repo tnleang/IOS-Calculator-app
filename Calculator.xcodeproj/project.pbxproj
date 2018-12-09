@@ -12,6 +12,11 @@
 		84969D0F21BC82AE003E3CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84969D0D21BC82AE003E3CE5 /* Main.storyboard */; };
 		84969D1121BC82B0003E3CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84969D1021BC82B0003E3CE5 /* Assets.xcassets */; };
 		84969D1421BC82B0003E3CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84969D1221BC82B0003E3CE5 /* LaunchScreen.storyboard */; };
+		84969D1C21BC82CF003E3CE5 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84969D1B21BC82CF003E3CE5 /* Token.swift */; };
+		84969D1E21BC82FE003E3CE5 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84969D1D21BC82FE003E3CE5 /* Stack.swift */; };
+		84969D2021BC8325003E3CE5 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84969D1F21BC8325003E3CE5 /* Queue.swift */; };
+		84969D2221BC83D6003E3CE5 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84969D2121BC83D6003E3CE5 /* Number.swift */; };
+		84969D2421BC8443003E3CE5 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84969D2321BC8443003E3CE5 /* Operator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		84969D1021BC82B0003E3CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84969D1321BC82B0003E3CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84969D1521BC82B0003E3CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84969D1B21BC82CF003E3CE5 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		84969D1D21BC82FE003E3CE5 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		84969D1F21BC8325003E3CE5 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		84969D2121BC83D6003E3CE5 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		84969D2321BC8443003E3CE5 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				84969D0921BC82AE003E3CE5 /* AppDelegate.swift */,
 				84969D0B21BC82AE003E3CE5 /* ViewController.swift */,
+				84969D1F21BC8325003E3CE5 /* Queue.swift */,
+				84969D1D21BC82FE003E3CE5 /* Stack.swift */,
+				84969D2321BC8443003E3CE5 /* Operator.swift */,
+				84969D2121BC83D6003E3CE5 /* Number.swift */,
+				84969D1B21BC82CF003E3CE5 /* Token.swift */,
 				84969D0D21BC82AE003E3CE5 /* Main.storyboard */,
 				84969D1021BC82B0003E3CE5 /* Assets.xcassets */,
 				84969D1221BC82B0003E3CE5 /* LaunchScreen.storyboard */,
@@ -135,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84969D2021BC8325003E3CE5 /* Queue.swift in Sources */,
+				84969D1E21BC82FE003E3CE5 /* Stack.swift in Sources */,
+				84969D2221BC83D6003E3CE5 /* Number.swift in Sources */,
+				84969D1C21BC82CF003E3CE5 /* Token.swift in Sources */,
+				84969D2421BC8443003E3CE5 /* Operator.swift in Sources */,
 				84969D0C21BC82AE003E3CE5 /* ViewController.swift in Sources */,
 				84969D0A21BC82AE003E3CE5 /* AppDelegate.swift in Sources */,
 			);
