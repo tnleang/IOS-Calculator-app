@@ -16,8 +16,8 @@ class Number : Token {
         super.init()
     }
     
-    init( token : String) {
-        if let number = Double(token){
+    init( num : String) {
+        if let number = Double(num){
             value = number
             super.init()
         } else {

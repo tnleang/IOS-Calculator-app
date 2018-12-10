@@ -17,6 +17,9 @@
 		84969D2021BC8325003E3CE5 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84969D1F21BC8325003E3CE5 /* Queue.swift */; };
 		84969D2221BC83D6003E3CE5 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84969D2121BC83D6003E3CE5 /* Number.swift */; };
 		84969D2421BC8443003E3CE5 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84969D2321BC8443003E3CE5 /* Operator.swift */; };
+		84C73B6521BCFAB10063E309 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C73B6421BCFAB10063E309 /* Tokenizer.swift */; };
+		84C73B6721BD0CE20063E309 /* Parenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C73B6621BD0CE20063E309 /* Parenthesis.swift */; };
+		84C73B6921BD16C10063E309 /* RPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C73B6821BD16C10063E309 /* RPN.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		84969D1F21BC8325003E3CE5 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		84969D2121BC83D6003E3CE5 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
 		84969D2321BC8443003E3CE5 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		84C73B6421BCFAB10063E309 /* Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
+		84C73B6621BD0CE20063E309 /* Parenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parenthesis.swift; sourceTree = "<group>"; };
+		84C73B6821BD16C10063E309 /* RPN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPN.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				84969D1F21BC8325003E3CE5 /* Queue.swift */,
 				84969D1D21BC82FE003E3CE5 /* Stack.swift */,
 				84969D2321BC8443003E3CE5 /* Operator.swift */,
+				84C73B6621BD0CE20063E309 /* Parenthesis.swift */,
+				84C73B6421BCFAB10063E309 /* Tokenizer.swift */,
+				84C73B6821BD16C10063E309 /* RPN.swift */,
 				84969D2121BC83D6003E3CE5 /* Number.swift */,
 				84969D1B21BC82CF003E3CE5 /* Token.swift */,
 				84969D0D21BC82AE003E3CE5 /* Main.storyboard */,
@@ -151,10 +160,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84969D2021BC8325003E3CE5 /* Queue.swift in Sources */,
+				84C73B6721BD0CE20063E309 /* Parenthesis.swift in Sources */,
 				84969D1E21BC82FE003E3CE5 /* Stack.swift in Sources */,
 				84969D2221BC83D6003E3CE5 /* Number.swift in Sources */,
+				84C73B6921BD16C10063E309 /* RPN.swift in Sources */,
 				84969D1C21BC82CF003E3CE5 /* Token.swift in Sources */,
 				84969D2421BC8443003E3CE5 /* Operator.swift in Sources */,
+				84C73B6521BCFAB10063E309 /* Tokenizer.swift in Sources */,
 				84969D0C21BC82AE003E3CE5 /* ViewController.swift in Sources */,
 				84969D0A21BC82AE003E3CE5 /* AppDelegate.swift in Sources */,
 			);

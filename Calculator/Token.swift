@@ -22,7 +22,23 @@ class Token {
     }
     
     func typeOf() -> Int {
+        Swift.print("I should not be called")
         return 0
+    }
+    
+    func getPreceden () -> Int {
+        Swift.print("I should not be called")
+        return 0
+    }
+    
+    func getArg () -> Int {
+        Swift.print("I should not be called")
+        return 0
+    }
+    
+    func getValue () -> String {
+        Swift.print("I should not be called")
+        return ""
     }
     
     func print () {

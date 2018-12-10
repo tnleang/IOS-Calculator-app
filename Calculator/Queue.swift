@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct queue<T> {
+struct Queue<T> {
     var list = [T]()
     
     init() {

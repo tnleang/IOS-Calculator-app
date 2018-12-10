@@ -52,4 +52,16 @@ class Operator : Token{
     override func typeOf() -> Int {
         return OPERATOR
     }
+    
+    override func getPreceden () -> Int {
+        return preceden
+    }
+    
+    override func getArg () -> Int {
+        return arg
+    }
+    
+    override func getValue() -> String {
+        return value
+    }
 }
